@@ -17,6 +17,38 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
   templateUrl: 'app.component.html'
 })
 export class AppComponent {
+  public appPages = [
+  {
+    title: 'Home',
+    url: '/tab1',
+    icon: 'home'
+  },
+  {
+    title: 'Esportes',
+    url: '/esporte',
+    icon: 'football'
+  },
+  {
+    title: 'Negócios',
+    url: '/negocio',
+    icon: 'ios-briefcase'
+  },
+  {
+    title: 'Tecnologia',
+    url: '/technologia',
+    icon: 'laptop'
+  },
+  {
+    title: 'Perfil',
+    url: '/home',
+    icon: 'person-add'
+  },
+  {
+    title: 'Saúde',
+    url: '/saude',
+    icon: 'heart'
+  },
+];
   constructor(
     private platform: Platform,
     private splashScreen: SplashScreen,

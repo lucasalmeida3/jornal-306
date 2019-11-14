@@ -16,13 +16,13 @@
           <div class="fire-logo">
             <img src="assets/firebase.png" class="img-logo">
             <ion-text>
-              <h2 no-margin margin-vertical text-center>Welcome to Firebase Auth</h2>
+              <h2 no-margin margin-vertical text-center>Bem vindo ao Jornal 306</h2>
             </ion-text>
           </div>
         </ion-row>
         <ion-row>
           <ion-col>
-            <ion-input clearInput type="text" placeholder="Username" [(ngModel)]="username" class="input"
+            <ion-input clearInput type="text" placeholder="Nome" [(ngModel)]="username" class="input"
               padding-horizontal clear-input="true"></ion-input>
           </ion-col>
         </ion-row>
@@ -34,21 +34,21 @@
         </ion-row>
         <ion-row>
           <ion-col>
-            <ion-input clearInput type="password" placeholder="Password" [(ngModel)]="password" class="input"
+            <ion-input clearInput type="password" placeholder="Senha" [(ngModel)]="password" class="input"
               padding-horizontal clear-input="true"></ion-input>
           </ion-col>
         </ion-row>
         <ion-row>
           <ion-col>
-            <ion-input clearInput type="number" placeholder="Enter a number from 1 to 1000" [(ngModel)]="image"
+            <ion-input clearInput type="number" placeholder="Escolha um número de 1 a 1000" [(ngModel)]="image"
               class="input" padding-horizontal clear-input="true"></ion-input>
           </ion-col>
         </ion-row>
         <ion-row>
           <ion-col>
             <ion-button expand="block" (click)="signup()" color="undefined" class="transition">
-              <strong class="white">
-                Register</strong></ion-button>
+              <strong class="white">Cadastrar</strong>
+            </ion-button>
           </ion-col>
         </ion-row>
         <ion-row>
@@ -58,8 +58,8 @@
         </ion-row>
         <ion-row>
           <ion-col>
-            <ion-text text-center class="block">Already have an account ?
-              <span class="bold" routerLink="/login">Login here</span></ion-text>
+            <ion-text text-center class="block">Já tem uma conta ?
+              <span class="bold" routerLink="/login">Entre aqui</span></ion-text>
           </ion-col>
         </ion-row>
       </ion-card-content>
@@ -67,9 +67,4 @@
   </div>
 </ion-content>
 <ion-footer>
-  <ion-toolbar>
-    <ion-title text-center>
-      Made by Enappd
-    </ion-title>
-  </ion-toolbar>
 </ion-footer>

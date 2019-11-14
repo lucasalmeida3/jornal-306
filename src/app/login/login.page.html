@@ -16,7 +16,7 @@
           <div class="fire-logo">
             <img src="assets/firebase.png" class="img-logo">
             <ion-text>
-              <h2 no-margin margin-vertical text-center>Welcome to Firebase Auth</h2>
+              <h2 no-margin margin-vertical text-center>Bem vindo ao Jornal 306</h2>
             </ion-text>
           </div>
         </ion-row>
@@ -28,15 +28,15 @@
         </ion-row>
         <ion-row>
           <ion-col>
-            <ion-input clearInput type="password" placeholder="Password" [(ngModel)]="password" class="input"
+            <ion-input clearInput type="password" placeholder="Senha" [(ngModel)]="password" class="input"
               padding-horizontal clear-input="true"></ion-input>
           </ion-col>
         </ion-row>
         <ion-row>
           <ion-col>
             <ion-button expand="block" (click)="login()" color="undefined" class="transition">
-              <strong class="white">
-                Login</strong></ion-button>
+              <strong class="white">Login</strong>
+            </ion-button>
           </ion-col>
         </ion-row>
         <ion-row>
@@ -46,23 +46,16 @@
         </ion-row>
         <ion-row>
           <ion-col>
-            <ion-text text-center class="block">Don't have an account yet ?
-              <span class="bold" routerLink="/signup">Sign up here</span></ion-text>
+            <ion-text text-center class="block">Não tem uma conta ?
+              <span class="bold" routerLink="/signup">Cadastre-se aqui</span></ion-text>
           </ion-col>
         </ion-row>
         <ion-row>
           <ion-col>
-            <ion-text text-center class="block bold" routerLink="/forgot">Forgot Password</ion-text>
+            <ion-text text-center class="block bold" routerLink="/forgot">Esqueci minha senha</ion-text>
           </ion-col>
         </ion-row>
       </ion-card-content>
     </ion-card>
   </div>
 </ion-content>
-<ion-footer>
-  <ion-toolbar>
-    <ion-title text-center>
-      Made by Enappd
-    </ion-title>
-  </ion-toolbar>
-</ion-footer>
