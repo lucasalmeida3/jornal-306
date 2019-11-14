@@ -38,15 +38,16 @@ export class AppComponent {
     url: '/technologia',
     icon: 'laptop'
   },
-  {
-    title: 'Perfil',
-    url: '/home',
-    icon: 'person-add'
-  },
+  
   {
     title: 'Saúde',
     url: '/saude',
     icon: 'heart'
+  },
+  {
+    title: 'Perfil',
+    url: '/home',
+    icon: 'person'
   },
 ];
   constructor(
