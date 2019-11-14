@@ -38,7 +38,6 @@ export class AppComponent {
     url: '/technologia',
     icon: 'laptop'
   },
-  
   {
     title: 'Saúde',
     url: '/saude',
@@ -48,6 +47,11 @@ export class AppComponent {
     title: 'Perfil',
     url: '/home',
     icon: 'person'
+  },
+  {
+    title: 'Fale conosco',
+    url: '/fale-conosco',
+    icon: 'chatbubbles'
   },
 ];
   constructor(

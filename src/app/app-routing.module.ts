@@ -21,7 +21,9 @@ const routes: Routes = [
   { path: 'technologia', loadChildren: './technologia/technologia.module#TechnologiaPageModule' },
   { path: 'esporte', loadChildren: './esporte/esporte.module#EsportePageModule' },
   { path: 'negocio', loadChildren: './negocio/negocio.module#NegocioPageModule' },
-  { path: 'tabs', loadChildren: './tabs/tabs.module#TabsPageModule' },
+  { path: 'tabs', loadChildren: './tabs/tabs.module#TabsPageModule' },  { path: 'tabs', loadChildren: './tabs/tabs.module#TabsPageModule' },
+  { path: 'fale-conosco', loadChildren: './fale-conosco/fale-conosco.module#FaleConoscoPageModule' },
+
 
 
 ];
